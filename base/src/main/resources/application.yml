@@ -1,0 +1,18 @@
+server: 
+  port: 1020 
+  
+  
+  
+spring: 
+  mvc: 
+    view: 
+      prefix: /templates/ 
+      suffix: .html
+  # 数据库连接
+  datasource: 
+    url: jdbc:mysql://127.0.0.1:3306/xy-cms
+    username: root
+    password: coship
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa: 
+    show-sql: true
